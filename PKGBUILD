@@ -1,3 +1,5 @@
+# Maintainer: hak53q <hak53q@gmail.com>
+
 pkgname=ttf-plangothic
 pkgver=1.9.5769
 pkgrel=1
