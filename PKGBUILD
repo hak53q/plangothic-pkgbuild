@@ -13,6 +13,7 @@ source=(
   PlangothicP2-Regular-$pkgver.ttf::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/PlangothicP2-Regular.ttf"
   $pkgname-LICENSE::"https://raw.githubusercontent.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic/V$pkgver/LICENSE"
 )
+
 sha256sums=(
   '299f2a5556281a68c67bd9abcbc45d6662b48e2da620e611f8156a9119bea839'
   'a575a268b3ae456e0fded01f2fe22bf44b4748fa2f57cd6e5cf9e243b0470180'
