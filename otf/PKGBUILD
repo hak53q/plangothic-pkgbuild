@@ -12,8 +12,8 @@ source=(
   PlangothicP2-Regular-$pkgver.otf::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/PlangothicP2-Regular.otf"
 )
 sha256sums=(
-  '324d87dc654cc8c9ec1a6cfafe9f78ce49db49cbdc54b6fa8e2a2d5825b3f3bf'
-  'd1c5110da2b4ba1bc0ac020d785e42ee00b036cbf0417cb1ae8ebff2d46bd42f'
+  '8eaf545fd479b44325a0727f6cf5305d3a96fa2fcfea84d6d4c87da8e4638a25'
+  'db8aa3cce00a0098e4168e16b11898a4f378e1fbe26bdccd537014936e7d8a9b'
 )
 
 package() {
