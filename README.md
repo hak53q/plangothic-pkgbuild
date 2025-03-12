@@ -5,7 +5,7 @@ otf
 ```=
 rm -rf /home/$USER/Plangothic/
 git clone https://github.com/hak53q/Plangothic/otf
-cd Plangothic/
+cd Plangothic/otf/
 makepkg -si
 cd
 rm -rf /home/$USER/Plangothic/
@@ -14,7 +14,7 @@ ttf
 ```=
 rm -rf /home/$USER/Plangothic/
 git clone https://github.com/hak53q/Plangothic/ttf
-cd Plangothic/
+cd Plangothic/ttf/
 makepkg -si
 cd
 rm -rf /home/$USER/Plangothic/
