@@ -8,7 +8,6 @@ git clone https://github.com/hak53q/Plangothic/
 cd Plangothic/otf/
 makepkg -si
 cd
-rm -rf /home/$USER/Plangothic/
 ```
 ttf
 ```=
@@ -17,7 +16,6 @@ git clone https://github.com/hak53q/Plangothic/
 cd Plangothic/ttf/
 makepkg -si
 cd
-rm -rf /home/$USER/Plangothic/
 ```
 \
 2025/03/09 V1.9.5769 第一次弄PKGBUILD\
