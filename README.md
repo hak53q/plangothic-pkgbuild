@@ -1,5 +1,5 @@
 # Plangothic
-2025/03/09 V1.9.5769
+2025/03/09 V1.9.5769\
 2025/03/12 V2.9.5771
 ```=
 rm -rf /home/$USER/Plangothic/
