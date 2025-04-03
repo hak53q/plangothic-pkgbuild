@@ -1,5 +1,5 @@
 # Plangothic
-複製貼上在archinux安裝[遍黑體](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)\
+[遍黑體](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project)\
 \
 otf
 ```=
@@ -19,4 +19,4 @@ cd
 ```
 \
 2025/03/09 V1.9.5769 第一次弄PKGBUILD\
-2025/03/12 V2.9.5771 剛發沒半小時就碰巧看到，我很少看github的，哇
+2025/03/12 V2.9.5771 剛發沒半小時就碰巧大更新，哇
