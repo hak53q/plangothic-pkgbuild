@@ -1,22 +1,21 @@
 # Maintainer: hak53q <hak53q@gmail.com>
 
 pkgname=otf-plangothic
-pkgver=2.9.5771
+pkgver=2.9.5777
 pkgrel=1
 arch=(any)
 url='https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project'
 license=(OFL)
 depends=(fontconfig)
 source=(
-  PlangothicP1-Regular-$pkgver.otf::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/PlangothicP1-Regular.otf"
-  PlangothicP2-Regular-$pkgver.otf::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/PlangothicP2-Regular.otf"
+  Plangothic-OTF-V$pkgver.zip::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/Plangothic-OTF-V$pkgver.zip"
 )
 sha256sums=(
-  '8eaf545fd479b44325a0727f6cf5305d3a96fa2fcfea84d6d4c87da8e4638a25'
-  'db8aa3cce00a0098e4168e16b11898a4f378e1fbe26bdccd537014936e7d8a9b'
+  '8439ff2b89f313322780c8c4ac57f2df94b632ee53531ab3e8abaacb88ef72b6'
 )
 
 package() {
-  install -Dm644 "$srcdir/PlangothicP1-Regular-$pkgver.otf" "$pkgdir/usr/share/fonts/plangothic/PlangothicP1-Regular.otf"
-  install -Dm644 "$srcdir/PlangothicP2-Regular-$pkgver.otf" "$pkgdir/usr/share/fonts/plangothic/PlangothicP2-Regular.otf"
+  unzip -u $srcdir/Plangothic-OTF-V$pkgver.zip
+  install -Dm644 "$srcdir/Plangothic-OTF-V$pkgver/PlangothicP1-Regular.otf" "$pkgdir/usr/share/fonts/plangothic/PlangothicP1-Regular.otf"
+  install -Dm644 "$srcdir/Plangothic-OTF-V$pkgver/PlangothicP2-Regular.otf" "$pkgdir/usr/share/fonts/plangothic/PlangothicP2-Regular.otf"
 }
