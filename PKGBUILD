@@ -6,7 +6,7 @@ pkgrel=1
 arch=(any)
 url='https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project'
 license=(OFL)
-depends=(fontconfig)
+depends=('fontconfig' 'unzip')
 source=(
   Plangothic-OTF-V$pkgver.zip::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/Plangothic-OTF-V$pkgver.zip"
 )
