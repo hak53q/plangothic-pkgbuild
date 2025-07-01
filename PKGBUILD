@@ -1,7 +1,7 @@
 # Maintainer: hak53q <hak53q@gmail.com>
 
 pkgname=otf-plangothic
-pkgver=2.9.5777
+pkgver=2.9.5779
 pkgrel=1
 arch=(any)
 url='https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project'
