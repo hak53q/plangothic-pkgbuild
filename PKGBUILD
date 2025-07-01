@@ -11,7 +11,7 @@ source=(
   Plangothic-OTF-V$pkgver.zip::"https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic-Project/releases/download/V$pkgver/Plangothic-OTF-V$pkgver.zip"
 )
 sha256sums=(
-  '8439ff2b89f313322780c8c4ac57f2df94b632ee53531ab3e8abaacb88ef72b6'
+  'b19f8514a6c33ca67c89eea5dd4f8f816c3346535f88c0c1184e445c8043fca5'
 )
 
 package() {
